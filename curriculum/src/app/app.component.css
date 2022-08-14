@@ -1,0 +1,59 @@
+
+       body {
+        background-image: url('https://images.alphacoders.com/104/thumb-1920-1046781.jpg');
+        background-repeat: no-repeat;
+        color: white;
+        background-attachment: fixed;
+        background-size: 100%;
+    }
+
+    #principal {
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        margin: 0 auto;
+    }
+
+    .contenido-principal {
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        column-gap: 20px;
+    }
+
+    .datos-generales {
+        padding: 10px;
+    }
+
+    .infor {
+        padding: 10px;
+        /* margin: 0 auto; */
+    }
+
+    #foto {
+        border: solid 1px black;
+        width: 10%;
+        /* margin: 0 auto; */
+        padding: 4px;
+    }
+
+    fieldset {
+        margin-bottom: 10px;
+    }
+
+    legend {
+        border: solid 1px rgb(13, 63, 81);
+        padding: 5px;
+        width: 15%;
+        font-weight: bold;
+        border-radius: 20px;
+        background: rgb(122, 139, 56);
+    }
+
+    .perfil {
+        display: flex;
+        align-items: center;
+        column-gap: 5px;
+        margin-bottom: 10px;
+    }
+
